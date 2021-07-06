@@ -1,385 +1,385 @@
-.header h1{
-    text-align: center;
-    word-spacing: normal;
-    color: white;
-    letter-spacing: 5px;
-    font-family: georgia;
+.header h1 {
+  text-align: center;
+  word-spacing: normal;
+  color: white;
+  letter-spacing: 5px;
+  font-family: georgia;
 }
-.header{
-    text-align: right;
-    word-spacing: 2cm;
-    background-color: black;
-    margin: 0 10px;
-    padding: 0 10px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    height: 22vh;
-    z-index: 9999;
-}
-
-.header a{
-    text-decoration: none;
-    color: black;
-    padding: 5px 5px;
-    position: -webkit-sticky; 
-    position: sticky;
-    overflow: hidden;
-}
-.header strong{
-    color: #FFFF00;
+.header {
+  text-align: right;
+  word-spacing: 2cm;
+  background-color: black;
+  margin: 0 10px;
+  padding: 0 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 22vh;
+  z-index: 9999;
 }
 
-.head{
-    background-color: #FFFF00;
-    height: 5vh;
-    font-size: 18px;
-    text-align: justify;
-    width: 100%;
-    
+.header a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  overflow: hidden;
 }
-.header a:hover{
-    color: white;
-    background-color: black;
-    border-radius: 1cm;
+.header strong {
+  color: #ffff00;
 }
-#admin{
-    color: white;
+
+.head {
+  background-color: #ffff00;
+  height: 5vh;
+  font-size: 18px;
+  text-align: justify;
+  width: 100%;
+}
+.header a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 1cm;
+}
+#admin {
+  color: white;
 }
 
 /*section*/
-.section{
-    font-size: 25px;
-    background-image: url(./images/tennis.jpg);
-    background-attachment: fixed;
-    height: 100vh;
-    background-size: cover;
-    margin: 0 10px;
-    padding: 0 10px;
-    margin-top: 29.5vh;
+.section {
+  font-size: 25px;
+  background-image: url(../images/tennis.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  margin: 0 10px;
+  padding: 0 10px;
+  margin-top: 29.5vh;
 }
-.section h3{
-    color: white;
-    font-family: georgia;
-    text-shadow: 2px 2px 5px #FFFF00;
+.section h3 {
+  color: white;
+  font-family: georgia;
+  text-shadow: 2px 2px 5px #ffff00;
 }
-.section p{
-    color: #D3D3D3;
-    font-size: 19px;
-    font-family: papyrus;
+.section p {
+  color: #d3d3d3;
+  font-size: 19px;
+  font-family: papyrus;
 }
 /* ------form--------*/
-.form{
-    width: 350px;
-    position: relative;
-    margin: 6% auto;
-    background: #FFF;
-    padding: 5px;
-    box-sizing: border-box;
-    float: right;
-    height: 67vh;
-    font-family: sans-serif;
-    font-size: 12px;
-    overflow: hidden;
-    border-radius: 2%;
-    box-shadow: 0 0 20px #FFFF00;
+.form {
+  width: 350px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  box-sizing: border-box;
+  float: right;
+  height: 67vh;
+  font-family: sans-serif;
+  font-size: 12px;
+  overflow: hidden;
+  border-radius: 2%;
+  box-shadow: 0 0 20px #ffff00;
 }
 
-.input-group p{
-    font-weight: bold;
-    font-size: 13px;
-    text-align: center;
-    color: black;
-    font-family: georgia;
+.input-group p {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  color: black;
+  font-family: georgia;
 }
-.input-group input{
-    border: none;
-    outline: none;
-    display: block;
-    margin-top: 5px;
-    padding-bottom: 5px;
-    font-size: 16px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-    text-align: center;
+.input-group input {
+  border: none;
+  outline: none;
+  display: block;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
-.button-box{
-    width: 220px;
-    margin: 35px auto;
-    position: relative;
-    box-shadow: 0 0 20px 9px black;
-    border-radius: 30px;
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px black;
+  border-radius: 30px;
 }
-.toggle-btn{
-    padding: 10px 30px;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: none;
-    position: relative;
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
 }
-#btn{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 110px;
-    height: 100%;
-    background: linear-gradient(to right,#FFFF00,black);
-    border-radius: 30px;
-    transition: .5s;
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ffff00, black);
+  border-radius: 30px;
+  transition: 0.5s;
 }
-.socials{
-    text-align: center;
-     
+.socials {
+  text-align: center;
 }
-.socials a{
-    margin: 20px 0 0 0;
-    box-shadow: 0 0 20px #7f7f7f3d;
-    cursor: pointer;
-    width: 40%;
-    height: 50vh;
-    padding: 0 20px;
-    height: 40vh;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: 0.3s;
-    line-height: 40px;
-    background: #1a1a1a;
-
+.socials a {
+  margin: 20px 0 0 0;
+  box-shadow: 0 0 20px #7f7f7f3d;
+  cursor: pointer;
+  width: 40%;
+  height: 50vh;
+  padding: 0 20px;
+  height: 40vh;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 40px;
+  background: #1a1a1a;
 }
-.socials a:hover{
-    background-color: #FFFF00;
+.socials a:hover {
+  background-color: #ffff00;
 }
-.input-group{
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    transition: .5s;
+.input-group {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
 }
-.input field{
-    width: 100%;
-    padding: 10px 0;
-    margin: 5px 0;
-    border-left: 0;
-    border-top: 0;
-    border-right: 0;
-    border-bottom: 1px solid #999;
-    outline: none;
-    background: transparent;
+.input field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
 }
-.submit-btn{
-    width: 120px;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    background: linear-gradient(to right,#FFFF00,black);
-    border: 0;
-    outline: none;
-    border-radius: 30px;
+.submit-btn {
+  width: 120px;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ffff00, black);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
 }
-.check-box{
-    margin: 30px 10px 30px 0;
+.check-box {
+  margin: 30px 10px 30px 0;
 }
-span{
-    color: #777;
-    font-size: 12px;
-    text-align: center;
-    
+span {
+  color: #777;
+  font-size: 12px;
+  text-align: center;
 }
-#Login{
-    left: 50px;
+#Login {
+  left: 50px;
 }
-#register{
-    left: 450px;
+#register {
+  left: 450px;
 }
 /*----------------section----------*/
-.col-1, .col-2, .col-3{
-    box-sizing: border-box;
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-    height: 20vh;
-    padding: 5px;
-   
+.col-1,
+.col-2,
+.col-3 {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  height: 20vh;
+  padding: 5px;
 }
-.section-1{
-    text-align: center;
-    margin-bottom: 33.3px;
-    margin-top: 30px;
-    height: 19vh;
+.section-1 {
+  text-align: center;
+  margin-bottom: 33.3px;
+  margin-top: 30px;
+  height: 19vh;
 }
-.section-1 p{
-    font-family: helvetica;
+.section-1 p {
+  font-family: helvetica;
 }
-.section-1:after{
-    content: "";
-    display: table;
-    clear: both;
+.section-1:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-    .col-1, .col-2, .col-3 {
-      width: 100%;
-    }
+@media screen and (max-width: 600px) {
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 100%;
   }
+}
 
-  .section-1 h4{
-      font-family: Georgia;
-      box-shadow: 0 0 20px #7f7f7f3d;
-      background-color: black;
-      color: lavender;
-      border-radius: 2cm;
-      text-align: center;
-  }
-  .btn-1{
-      border-radius: 5cm;
-      height: 5vh;
-      width: 30%;
-      cursor: pointer;
-      background-color: #FFFF00;
-      border-width: 1px;
-      outline: none;
-      border: 0;
-      
-  }
-  .btn-1:hover{
-      color: white;
-      background-color: black;
-  }
-  .btn-1:focus{
-    color: white;
-    background-color: black;
-  }
-  /*-------------previews-------------*/
-  .previews{
-      background-image: url(./images/rugby-20.jpg);
-      background-attachment: scroll;
-      background-size: cover;
-      background-position: center;
-      height: 40vh;
-      margin-bottom: 30.3px;
-      border-radius: 30px;
-      text-align: center;
-      margin-top: 100px;
-  }
-  
-  .preview-2{
-    background-image: url(./images/fut-2.jpg);
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    height: 40vh;
-    margin-bottom: 33.3px;
-    border-radius: 30px;
-    text-align: center;
-  }
-  .preview-2 p,h4{
-      margin-bottom: 30px;
-      color: #000;
-      font-family: Georgia;
+.section-1 h4 {
+  font-family: Georgia;
+  box-shadow: 0 0 20px #7f7f7f3d;
+  background-color: black;
+  color: lavender;
+  border-radius: 2cm;
+  text-align: center;
+}
+.btn-1 {
+  border-radius: 5cm;
+  height: 5vh;
+  width: 30%;
+  cursor: pointer;
+  background-color: #ffff00;
+  border-width: 1px;
+  outline: none;
+  border: 0;
+}
+.btn-1:hover {
+  color: white;
+  background-color: black;
+}
+.btn-1:focus {
+  color: white;
+  background-color: black;
+}
+/*-------------previews-------------*/
+.previews {
+  background-image: url(../images/rugby-20.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  margin-bottom: 30.3px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
 
-  }
-  .previews p,h4{
-    color: #FFF;
-    font-family: Georgia;
+.preview-2 {
+  background-image: url(../images/fut-2.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  margin-bottom: 33.3px;
+  border-radius: 30px;
+  text-align: center;
+}
+.preview-2 p,
+h4 {
+  margin-bottom: 30px;
+  color: #000;
+  font-family: Georgia;
+}
+.previews p,
+h4 {
+  color: #fff;
+  font-family: Georgia;
+}
+.cheer {
+  background-image: url(../images/crowd.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 80vh;
+  padding: 0 20px;
+  background-position: center;
+}
 
-  }
-  .cheer{
-      background-image: url(./images/crowd.jpg);
-      background-attachment: fixed;
-      background-size: cover;
-      height: 80vh;
-      padding: 0 20px;
-      background-position: center;
-      
-  }
+/*footer*/
 
-  /*footer*/
+.footer {
+  position: relative;
+  box-sizing: border-box;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+  color: #fff;
+  height: 43.5vh;
+  padding: 5px;
+  float: left;
+  text-align: center;
+}
+.main-content {
+  margin: 0 10px;
+  padding: 0 10px;
+  text-align: center;
+}
+.main-content:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.left-box,
+.center-box,
+.right-box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.left-box,
+.center-box,
+.right-box {
+  float: left;
+  width: 31.5%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.left-box p {
+  font-size: 15px;
+  text-transform: none;
+  font-weight: lighter;
+  text-align: justify;
+}
+.center-box {
+  text-align: justify;
+  float: right;
+}
+.content {
+  margin: 20px 0 0 0;
+}
+.left-box .content .socials-1 {
+  margin: 20px 0 0 0;
+}
+.left-box .content .socials-1 a {
+  padding: 0 20px;
+}
+.left-box .content .socials-1 a span {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left-box .content .socials-1 a span:hover {
+  background-color: #ffff00;
+}
+.copyright {
+  text-align: center;
+}
+.copyright strong {
+  color: #ffff00;
+}
+hr.hr-1 {
+  border: 1px solid #ffff00;
+}
 
-  .footer{
-      position: relative;
-      box-sizing: border-box;
-      bottom: 0px;
-      width: 100%;
-      background: #111;
-      color: #FFF;
-      height: 43.5vh;
-      padding: 5px;
-      float: left;
-      text-align: center;
-      
+@media screen and (max-width: 650px) {
+  .left-box,
+  .center-box,
+  .right-box {
+    width: 100%;
+    display: block;
   }
-  .main-content{
-      margin: 0 10px;
-      padding: 0 10px;
-      text-align: center;
-      
-  }
-  .main-content:after{
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .left-box, .center-box, .right-box h2{
-      font-size: 1.125rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      
-  }
-  .left-box, .center-box, .right-box{
-    float: left;
-    width: 31.5%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  .left-box p{
-      font-size: 15px;
-      text-transform: none;
-      font-weight: lighter;
-      text-align: justify;
-  }
-  .center-box{
-    text-align: justify;
-    float: right;
-  }
-  .content{
-      margin: 20px 0 0 0;
-  }
-  .left-box .content .socials-1{
-      margin: 20px 0 0 0;
-  }
-  .left-box .content .socials-1 a{
-      padding: 0 20px;
-  }
-  .left-box .content .socials-1 a span{
-      height: 40px;
-      width: 40px;
-      background: #1a1a1a;
-      line-height: 40px;
-      text-align: center;
-      font-size: 18px;
-      border-radius: 5px;
-      transition: 0.3s;
-  }
-  .left-box .content .socials-1 a span:hover{
-      background-color: #FFFF00;
-  }
-  .copyright{
-      text-align: center;
-  }
-  .copyright strong{
-      color: #FFFF00;
-  }
-  hr.hr-1{
-    border: 1px solid #FFFF00;
-  }
-
-  @media screen and (max-width: 650px) {
-    .left-box, .center-box, .right-box {
-      width: 100%;
-      display: block;
-    }
-  }
+}
 
 /*About section */
 
@@ -408,7 +408,8 @@ span{
   padding: 0 16px;
 }
 
-.details::after, .row::after {
+.details::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -434,7 +435,6 @@ span{
   background-color: #555;
 }
 
-
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -443,41 +443,37 @@ span{
 }
 /*---------------previews---------------*/
 
-
-
-
-
 /*-------------Sports page-------------*/
-.Sports{
-    height: 100vh;
-    margin-top: 29.5vh;;
-    padding: 0;
-    background-image: url(./images/stad.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+.Sports {
+  height: 100vh;
+  margin-top: 29.5vh;
+  padding: 0;
+  background-image: url(../images/stad.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 /*----------search button-----------*/
-.Srch-1{
-    height: 3.2vh;
-    outline: none;
-    border-width: 1px;
+.Srch-1 {
+  height: 3.2vh;
+  outline: none;
+  border-width: 1px;
 }
 
-.btn-2{
-    border-radius: 5cm;
-    height: 4.5vh;
-    width: 10%;
-    cursor: pointer;
-    background-color: #FFFF00;
-    border-width: 1px;
-    outline: none;
-    border: 0;
+.btn-2 {
+  border-radius: 5cm;
+  height: 4.5vh;
+  width: 10%;
+  cursor: pointer;
+  background-color: #ffff00;
+  border-width: 1px;
+  outline: none;
+  border: 0;
 }
-.btn-2:hover{
-    background-color: #000;
-    color: #FFF;
+.btn-2:hover {
+  background-color: #000;
+  color: #fff;
 }
-hr.hr-3{
-    border: 1px solid #000;
-    width: 80%;
+hr.hr-3 {
+  border: 1px solid #000;
+  width: 80%;
 }
