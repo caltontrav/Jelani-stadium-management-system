@@ -1,14 +1,14 @@
-# JELANI STADIUM TICKET MANAGEMNT SYSTEM
+# JELANI STADIUM TICKET MANAGEMENT SYSTEM
 
 This is a website designed to automate the process of ticket booking to eradicate the manual way of booking tickets.
 
 ## Introduction
 
-Ideally sports lovers should easily be able to access their favorite sports games at any time. However, in reality stadiums have used the manual way of booking tickets, that is along the stadium entrance. This leads to wastage of time and long queues during ticket booking process. Jelani is a stadium web application that will be designed to help users book tickets online and at their own free will. Users will also be able to book reservations for concerts and events.  The app will be optimized for viewing on different screen sizes to enhance user experience. Users sign up details will be kept securely to avoid breach of personal data.
+Ideally sports lovers should easily be able to access their favorite sports games at any time. However, in reality stadiums have used the manual way of booking tickets, that is along the stadium entrance. This leads to wastage of time and long queues during ticket booking process. Jelani is a stadium web application that will be designed to help users book tickets online and at their own free will. Users will also be able to book reservations for concerts and events. The app will be optimized for viewing on different screen sizes to enhance user experience. Users sign up details will be kept securely to avoid breach of personal data.
 
 ## Table of contents
 
-- [JELANI STADIUM TICKET MANAGEMNT SYSTEM](#jelani-stadium-ticket-managemnt-system)
+- [JELANI STADIUM TICKET MANAGEMENT SYSTEM](#jelani-stadium-ticket-management-system)
   - [Introduction](#introduction)
   - [Table of contents](#table-of-contents)
     - [Objective](#objective)
@@ -16,7 +16,12 @@ Ideally sports lovers should easily be able to access their favorite sports game
       - [The users of the system](#the-users-of-the-system)
         - [Functional Requirements](#functional-requirements)
         - [1. Sports Module](#1-sports-module)
-        - [landing page](#landing-page)
+  - [SOFTAWARE DESIGN DESCRIPTION](#softaware-design-description)
+    - [SDD Introduction](#sdd-introduction)
+      - [User interface design](#user-interface-design)
+    - [Database Design](#database-design)
+      - [user registration table](#user-registration-table)
+      - [User login table](#user-login-table)
 
 ### Objective
 
@@ -62,13 +67,55 @@ The users of the system will include:
 
 ##### 1. Sports Module
 
-##### landing page
+- **Ticket booking** - Contains a button where user is able to book ticket to an event or sports.
 
-- Provides user with list of Sports type and games to be played on the stadium.
-  
-- Has a navigational link tabs to help user move around the website.
-  
-- The landing page has a button to each match  to enable user  book tickets after selecting the type of sport user wants to watch.
-  
-- Also has a cancel button incase user decides to change his mind on whether to book a ticket
-  
+- **Ticket cancellation** - contains a cancellation button incase user decides to cancel the ticket.
+
+- **Ticket update** - Contains an update where user is able to update his/her details on the ticket.
+
+## SOFTAWARE DESIGN DESCRIPTION
+
+This Contains the design to our system.
+
+### SDD Introduction
+
+It contains a summaried design of jelani system.
+
+#### User interface design
+
+- Sign up and Sign in page
+
+- **sign up**
+
+![sign up page image](images\Register.png)
+
+- **sign in**
+
+![sign in page image](images\login.png)
+
+- **Home page**
+
+![Home page](images\Homepage.png)
+
+- **Footer**
+
+![Home page](images\Footer.png)
+
+### Database Design
+
+contains tables of the system database.
+
+#### user registration table
+
+| column   | Type          |
+| -------- | ------------- |
+| email    | tinytext (pk) |
+| username | tinytext      |
+| password | text          |
+
+#### User login table
+
+| column   | Type          |
+| -------- | ------------- |
+| email    | tinytext (pk) |
+| password | tinytext      |
