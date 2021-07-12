@@ -20,8 +20,7 @@ Ideally sports lovers should easily be able to access their favorite sports game
     - [SDD Introduction](#sdd-introduction)
       - [User interface design](#user-interface-design)
     - [Database Design](#database-design)
-      - [user registration table](#user-registration-table)
-      - [User login table](#user-login-table)
+      - [users table](#users-table)
 
 ### Objective
 
@@ -87,35 +86,28 @@ It contains a summaried design of jelani system.
 
 - **sign up**
 
-![sign up page image](images\Register.png)
+![sign up page image](images/Register.png)
 
 - **sign in**
 
-![sign in page image](images\login.png)
+![sign in page image](image/login.png)
 
 - **Home page**
 
-![Home page](images\Homepage.png)
+![Home page](images/Homepage.png)
 
 - **Footer**
 
-![Home page](images\Footer.png)
+![Home page](images/Footer.png)
 
 ### Database Design
 
 contains tables of the system database.
 
-#### user registration table
+#### users table
 
 | column   | Type          |
 | -------- | ------------- |
 | email    | tinytext (pk) |
 | username | tinytext      |
 | password | text          |
-
-#### User login table
-
-| column   | Type          |
-| -------- | ------------- |
-| email    | tinytext (pk) |
-| password | tinytext      |
