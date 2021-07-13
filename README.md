@@ -87,35 +87,30 @@ It contains a summaried design of jelani system.
 
 - **sign up**
 
-![sign up page image](images\Register.png)
+![sign up page image](images/Register.png)
 
 - **sign in**
 
-![sign in page image](images\login.png)
+![sign in page image](images/login.png)
 
 - **Home page**
 
-![Home page](images\Homepage.png)
+![Home page](images/Homepage.png)
 
 - **Footer**
 
-![Home page](images\Footer.png)
+![Home page](images/Footer.png)
 
 ### Database Design
 
 contains tables of the system database.
 
-#### user registration table
+#### user table
 
 | column   | Type          |
 | -------- | ------------- |
-| email    | tinytext (pk) |
+| id       | int(pk)       | 
+| email    | tinytext      |
 | username | tinytext      |
 | password | text          |
 
-#### User login table
-
-| column   | Type          |
-| -------- | ------------- |
-| email    | tinytext (pk) |
-| password | tinytext      |
