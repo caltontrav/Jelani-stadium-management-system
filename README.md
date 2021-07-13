@@ -21,6 +21,7 @@ Ideally sports lovers should easily be able to access their favorite sports game
       - [User interface design](#user-interface-design)
     - [Database Design](#database-design)
       - [users table](#users-table)
+      - [Ticket table](#ticket-table)
 
 ### Objective
 
@@ -90,7 +91,7 @@ It contains a summaried design of jelani system.
 
 - **sign in**
 
-![sign in page image](image/login.png)
+![sign in page image](images/login.png)
 
 - **Home page**
 
@@ -106,8 +107,20 @@ contains tables of the system database.
 
 #### users table
 
-| column   | Type          |
-| -------- | ------------- |
-| email    | tinytext (pk) |
-| username | tinytext      |
-| password | text          |
+| column   | Type     |
+| -------- | -------- |
+| id       | int(pk)  |
+| email    | tinytext |
+| username | tinytext |
+| password | text     |
+
+#### Ticket table
+
+| column            | Type     |
+| ----------------- | -------- |
+| id                | int(pk)  |
+| Ticket number     | VARCHAR  |
+| Class             | tinytext |
+| Time              | date     |
+| seat-Number       | int      |
+| Number of tickets | int      |
