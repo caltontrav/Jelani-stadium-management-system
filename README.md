@@ -116,11 +116,10 @@ contains tables of the system database.
 
 #### Ticket table
 
-| column            | Type     |
-| ----------------- | -------- |
-| id                | int(pk)  |
-| Ticket number     | VARCHAR  |
-| Class             | tinytext |
-| Time              | date     |
-| seat-Number       | int      |
-| Number of tickets | int      |
+| column        | Type     |
+| ------------- | -------- |
+| id            | int(pk)  |
+| Ticket number | VARCHAR  |
+| Class         | tinytext |
+| Time          | date     |
+| time_booked   | int      |

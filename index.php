@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -75,7 +76,7 @@
               <form
                 id="register"
                 class="input-group"
-                action="connect.php"
+                action="register.php"
                 method="post"
               >
                 <p>New here?</p>
