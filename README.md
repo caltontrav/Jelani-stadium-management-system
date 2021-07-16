@@ -16,12 +16,12 @@ Ideally sports lovers should easily be able to access their favorite sports game
       - [The users of the system](#the-users-of-the-system)
         - [Functional Requirements](#functional-requirements)
         - [1. Sports Module](#1-sports-module)
+        - [2. Events Module](#2-events-module)
   - [SOFTAWARE DESIGN DESCRIPTION](#softaware-design-description)
     - [SDD Introduction](#sdd-introduction)
       - [User interface design](#user-interface-design)
     - [Database Design](#database-design)
-      - [user registration table](#user-registration-table)
-      - [User login table](#user-login-table)
+      - [user table](#user-table)
 
 ### Objective
 
@@ -73,6 +73,8 @@ The users of the system will include:
 
 - **Ticket update** - Contains an update where user is able to update his/her details on the ticket.
 
+##### 2. Events Module
+
 ## SOFTAWARE DESIGN DESCRIPTION
 
 This Contains the design to our system.
@@ -109,8 +111,7 @@ contains tables of the system database.
 
 | column   | Type          |
 | -------- | ------------- |
-| id       | int(pk)       | 
+| id       | int(pk)       |
 | email    | tinytext      |
 | username | tinytext      |
 | password | text          |
-
