@@ -34,7 +34,7 @@
   background-color: #ffff00;
   height: 5vh;
   font-size: 18px;
-  text-align: justify;
+  text-align: center;
   width: 100%;
 }
 .header a:hover {
@@ -531,19 +531,19 @@ hr.hr-3 {
     width: 90%;
 }
 
-.submit-btn {
-    background-color:#000000;
+.submit-btnevents {
+    background-color: rgb(0, 0, 0);
     color:rgb(255, 255, 0);
-    padding: 10px 20px;
-    margin: 8px 0;
+    padding: 10px 50px;
     border: none;
+    margin-bottom: 10px;
     cursor: pointer;
     opacity: 0.8;
     width: 50%;
     float: right;
 }
 
-.submit-btn:hover {
+.submit-btnevents:hover {
     opacity: 1;
 }
 

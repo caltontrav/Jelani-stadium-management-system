@@ -75,6 +75,8 @@ The users of the system will include:
 
 ##### 2. Events Module
 
+- **Ticket booking** - Contains a form where user is able to book ticket to an event or sports.
+
 ## SOFTAWARE DESIGN DESCRIPTION
 
 This Contains the design to our system.
