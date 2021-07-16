@@ -5,10 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="shortcut icon" href="/Jelani-stadium-management-system/favicon/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+          <h1>
+            <strong>J</strong>ELAN<strong>I</strong>
+            <br />ST<strong>ADI</strong>UM
+          </h1>
+          <a href="" id="admin"><i class="fa fa-user-circle"></i></a>
+          <img src="" alt="" />
+          <div class="head">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="sports.html">Sports</a>
+            <a href="">Account</a>
+          </div>
+        </div>
+    <form id="regForm">
+        <h1>Book Event:</h1>
+        <div class="tab"> Name:
+            <p><input placeholder="First Name..."></p>
+            <p><input placeholder="Middle Name..."></p>
+            <p><input placeholder="Last Name..."></p>
+        </div>
+        <div class="tab"> Contact:
+            <p><input placeholder="Phone No..."></p>
+            <p>
+                <input type="text" placeholder="E-mail Address...">
+                <span>Please enter a valid email (user@domain.com)</span>
+            </p>
+            <p><input placeholder="Address..."></p>
+        </div>
+        <div class="tab"> Reservation:
+            <p><input type="date" placeholder="Date..."></p>
+            <p><input type="time" placeholder="Time..."></p>
+        </div>
+        <div class="tab"> People:
+            <p><input type="number" placeholder="No. Of People..."></p>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
 </body>
 </html>

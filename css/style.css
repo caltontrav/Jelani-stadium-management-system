@@ -498,7 +498,7 @@ hr.hr-3 {
     z-index: 9999;
   }
 
-.head {
+/*.head {
     background-color: #ffff00;
     height: 5vh;
     font-size: 18px;
@@ -509,7 +509,7 @@ hr.hr-3 {
     color: white;
     background-color: black;
     border-radius: 1cm;
-}  
+}  */
 
 #regForm {
     background-color: #ffffff;
@@ -533,7 +533,7 @@ hr.hr-3 {
 
 .submit-btn {
     background-color:#000000;
-    color:rgb(251, 255, 0);
+    color:rgb(255, 255, 0);
     padding: 10px 20px;
     margin: 8px 0;
     border: none;
@@ -628,9 +628,9 @@ body {font-family: sans-serif;} */
   color: #777;
 }
 
-/* Highlight the "current" day */
-/*.days li .active {
+/* Highlight the "current" day
+.days li .active {
   padding: 5px;
   background: #779200;
   color: white !important
-} 
+} */
