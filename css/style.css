@@ -538,6 +538,78 @@ hr.hr-1 {
   color: #fff;
 }
 
+/*----------book ticket modal-----------*/
+
+.register {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 8);
+  float: right;
+  border-radius: 2px;
+  box-shadow: 0 0 20px #00ced1;
+  color: #fff;
+  height: 67vh;
+  margin-left: 0.3cm;
+  width: 30%;
+  border-radius: 1cm;
+  font-size: 25px;
+  font-family: georgia;
+  position: absolute;
+  z-index: 2;
+  left: 3;
+}
+.register h4 {
+  text-align: center;
+  text-decoration: underline;
+  color: dodgerblue;
+  font-weight: bold;
+}
+.register a {
+  color: #00ced1;
+  text-decoration: none;
+  font-style: italic;
+}
+.register input[type="number"],
+input[type="datetime-local"] {
+  width: 50%;
+  height: 3vh;
+  margin: 0 10px;
+  outline: none;
+  border-radius: 1em;
+}
+.cancel-btn {
+  height: 30px;
+  width: 3cm;
+  border-radius: 1cm;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #e40505ec;
+  color: #000;
+}
+.submit_btn {
+  height: 30px;
+  width: 3cm;
+  border-radius: 1cm;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #4af307ec;
+  color: #000;
+}
+.update-btn {
+  height: 30px;
+  width: 3cm;
+  border-radius: 1cm;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: dodgerblue;
+  color: #000;
+}
+.cancel-btn:focus {
+  background-color: #000;
+  color: #fff;
+}
 /*----------search button-----------*/
 .Srch-1 {
   height: 3.2vh;
