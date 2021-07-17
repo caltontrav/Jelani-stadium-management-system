@@ -16,6 +16,7 @@ Ideally sports lovers should easily be able to access their favorite sports game
       - [The users of the system](#the-users-of-the-system)
         - [Functional Requirements](#functional-requirements)
         - [1. Sports Module](#1-sports-module)
+      - [1. Authentication module](#1-authentication-module)
   - [SOFTAWARE DESIGN DESCRIPTION](#softaware-design-description)
     - [SDD Introduction](#sdd-introduction)
       - [User interface design](#user-interface-design)
@@ -63,6 +64,19 @@ The users of the system will include:
 
 1. **Developer Projects Manager** - will be in charge of the website, i.e. keep the stadium website UpToDate.
 
+**Technical Requirements**
+This application will be build on the following technologies:
+
+- HTML,CSS,JavaScript
+
+- Bootstrap
+
+- PHP
+
+- MySQL
+
+Apache Web Server
+
 ##### Functional Requirements
 
 ##### 1. Sports Module
@@ -72,6 +86,19 @@ The users of the system will include:
 - **Ticket cancellation** - contains a cancellation button incase user decides to cancel the ticket.
 
 - **Ticket update** - Contains an update where user is able to update his/her details on the ticket.
+
+#### 1. Authentication module
+
+- login page
+   Provides user with text fields where they can enter the username and passwords.
+
+- Provides a button where user can login to the system.
+
+- Has a registration button that enables a new user to regester and be part of the system.
+
+- This page also enables user after login to be able to edit their profiles.
+
+- It also enables user to change their password and username after login.
 
 ## SOFTAWARE DESIGN DESCRIPTION
 
@@ -96,6 +123,10 @@ It contains a summaried design of jelani system.
 - **Home page**
 
 ![Home page](images/Homepage.png)
+
+- **Admin page**
+
+![Admin page](images/admin.png)
 
 - **Footer**
 
