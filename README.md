@@ -16,7 +16,7 @@ Ideally sports lovers should easily be able to access their favorite sports game
       - [The users of the system](#the-users-of-the-system)
         - [Functional Requirements](#functional-requirements)
         - [1. Sports Module](#1-sports-module)
-      - [1. Authentication module](#1-authentication-module)
+      - [2. Authentication module](#2-authentication-module)
   - [SOFTAWARE DESIGN DESCRIPTION](#softaware-design-description)
     - [SDD Introduction](#sdd-introduction)
       - [User interface design](#user-interface-design)
@@ -87,7 +87,7 @@ Apache Web Server
 
 - **Ticket update** - Contains an update where user is able to update his/her details on the ticket.
 
-#### 1. Authentication module
+#### 2. Authentication module
 
 - login page
    Provides user with text fields where they can enter the username and passwords.
