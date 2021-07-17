@@ -23,6 +23,7 @@ Ideally sports lovers should easily be able to access their favorite sports game
     - [Database Design](#database-design)
       - [users table](#users-table)
       - [Ticket table](#ticket-table)
+      - [Event table](#event-table)
 
 ### Objective
 
@@ -154,3 +155,14 @@ contains tables of the system database.
 | Class         | tinytext |
 | Time          | date     |
 | time_booked   | int      |
+
+#### Event table
+
+| column           | Type        |
+| ------           | -----       |
+| id               | int(pk)     |
+| Name             | tinytext    |
+| Addres           | VARCHAR     |
+| Email            | tinytext    |
+| Reservation date | DATE        |
+| No of people     | int         |
