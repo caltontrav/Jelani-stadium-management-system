@@ -125,10 +125,6 @@ It contains a summaried design of jelani system.
 
 ![Home page](images/Homepage.png)
 
-- **Admin page**
-
-![Admin page](images/admin.png)
-
 - **Footer**
 
 ![Home page](images/Footer.png)
