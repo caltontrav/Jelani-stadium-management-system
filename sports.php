@@ -28,8 +28,9 @@
           <div class="head">
             <a href="home.html"><i class="fa fa-home"></i>Home</a>
             <a href=""><i class="fa fa-child"></i>Events</a>
-            <a href="#sport"><i class="fa fa-futbol-o"></i>Sports</a>
-            <a href=""><i class="fa fa-user-circle"></i>Account</a>
+            <a href="sports.html"><i class="fa fa-futbol-o"></i>Sports</a>
+            <a href="book.html"><i class=""></i>Book</a>
+            <a href="account.html"><i class="fa fa-user-circle"></i>Account</a>
             <a href="">Signout<i class="fa fa-sign-out"></i></a>
           </div>
         </div>
@@ -87,46 +88,6 @@
         <p>incase of ticket queries, email us :info@jelanistad.com</p>
         <p><button class="btn-1" type="button" onclick="document.getElementById('id01').style.display='block'">Book Ticket</button></p>
       </div>
-    </div>
-  </div>
-
-  <div class="modal-book">
-
-    <div id="id01" class="register">
-      <form action="">
-        <h4>BOOK</h4>
-  
-        <p>Ticket number <input type="number" ></p> 
-        <p>class <select name="" id="">
-          <option value="">Local</option>
-          <option value="">VIP</option>
-          <option value="">VVIP</option>
-        </select>
-        </p>
-        <p>Number of Tickets <select name="" id="">
-          <option value="">1 Ticket</option>
-          <option value="">2 Tickets</option>
-          <option value="">3 Tickets</option>
-          <option value="">4 Tickets</option>
-          <option value="">5 Tickets</option>
-          <option value="">6 Tickets</option>
-          <option value="">7 Tickets</option>
-          <option value="">8 Tickets</option>
-          <option value="">9 Tickets</option>
-          <option value="">10 Tickets</option>
-        </select></p>
-        <p>Time booked <input type="datetime-local"></p>
-  
-        <button
-          type="button"
-          class="cancel-btn"
-          onclick="document.getElementById('id01').style.display='none'"
-        >
-          Cancel
-        </button>
-        <button type="submit" class="submit_btn">submit</button>
-        <button type="reset" class="update-btn">update</button>
-      </form>
     </div>
   </div>
 

@@ -1,4 +1,4 @@
-
+<?php require_once './connect.php';?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -52,14 +52,18 @@
                 <a href=""><span class="fa fa-twitter"></span></a>
                 <a href=""><span class="fa fa-instagram"></span></a>
               </div>
+              <?php
+              include_once './feedback.php';
+              ?>
 
-              <form id="login" class="input-group">
+              <form id="login" action="./controllers/login.php" class="input-group" method="POST">
                 <p>Welcome Back,</p>
                 <i class="fa fa-user-circle-o"></i>
                 <input
                   type="text"
                   placeholder="username"
                   class="input-field"
+                  name="email"
                   required
                 />
                 <i class="fa fa-lock"></i>
@@ -67,6 +71,7 @@
                   type="password"
                   placeholder="password"
                   class="input-field"
+                  name="password"
                   required
                 />
                 <input type="checkbox" checked="checked" name="remember" />
@@ -105,6 +110,7 @@
                   name="password"
                   required
                 />
+                
                 <input type="checkbox" name="terms"">I agree to the terms &
                 conditions
                 <button type="submit" class="submit-btn">Register</button>

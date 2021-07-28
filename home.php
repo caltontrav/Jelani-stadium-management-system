@@ -29,11 +29,16 @@
             <a href="Home.html"><i class="fa fa-home"></i>Home</a>
             <a href=""><i class="fa fa-child"></i>Events</a>
             <a href="sports.html"><i class="fa fa-futbol-o"></i>Sports</a>
-            <a href=""><i class="fa fa-user-circle"></i>Account</a>
-            <a href="">Signout<i class="fa fa-sign-out"></i></a>
+            <a href="book.html"><i class=""></i>Book</a>
+            <a href="account.html"><i class="fa fa-user-circle"></i>Account</a>
+            <a href="./signout.php">Signout<i class="fa fa-sign-out"></i></a>
           </div>
         </div>
       </div>
+
+      <?php
+              include_once './feedback.php';
+       ?>
 
       
 
@@ -43,9 +48,9 @@
           <i class="fa fa-search"></i>
           <h4>The world's best Booking search engine</h4>
           <p>
-            You can search for any game of your choice and book your ticket.
+            You can search for any game of your choice and book your ticket.All games <span id="dots"> ...</span> <span id="more">are listed in our search engine so that you can never miss a game.</span>
           </p>
-          <button class="btn-1">Learn More</button>
+          <button class="btn-1" onclick="myFunction()" id="myBtn1">Learn More</button>
         </div>
 
         <div class="col-2">
@@ -142,6 +147,24 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+
+
+
+      function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var mybtn1Text = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    mybtn1Text.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    mybtn1Text.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
       </script>
   </body>
 </html>

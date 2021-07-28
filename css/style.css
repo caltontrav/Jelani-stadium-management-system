@@ -80,12 +80,20 @@
   padding: 5px;
   box-sizing: border-box;
   float: right;
-  height: 70vh;
+  height: 75vh;
   font-family: sans-serif;
   font-size: 12px;
   overflow: hidden;
   border-radius: 2%;
   box-shadow: 0 0 20px #ffff00;
+}
+
+.alert-danger {
+  color: red;
+}
+
+.alert-success {
+  color: green;
 }
 
 .input-group p {
@@ -166,6 +174,7 @@
   border-bottom: 1px solid #999;
   outline: none;
   background: transparent;
+  height: 9vh;
 }
 .submit-btn {
   width: 120px;
@@ -193,6 +202,10 @@ span {
   left: 450px;
 }
 /*----------------section----------*/
+
+#more {
+  display: none;
+}
 .col-1,
 .col-2,
 .col-3 {
@@ -540,35 +553,43 @@ hr.hr-1 {
 
 /*----------book ticket modal-----------*/
 
-.register {
+.book-cont {
+  background-image: url(../images/guilher.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
+.modal-book {
   padding: 10px;
-  background-color: rgba(0, 0, 0, 8);
-  float: right;
+  background-color: transparent;
   border-radius: 2px;
-  box-shadow: 0 0 20px #00ced1;
+  box-shadow: 0 0 20px #f4fafa;
   color: #fff;
   height: 67vh;
-  margin-left: 0.3cm;
-  width: 30%;
+  width: 65%;
   border-radius: 1cm;
   font-size: 25px;
   font-family: georgia;
-  position: absolute;
-  z-index: 2;
-  left: 3;
-}
-.register h4 {
+  margin-top: 35vh;
+  margin-left: 40vh;
   text-align: center;
-  text-decoration: underline;
+}
+.modal-book h4 {
+  text-align: center;
+  text-decoration: none;
   color: dodgerblue;
   font-weight: bold;
+  background-color: rgb(255, 255, 0);
+  color: #000;
+  padding-top: 25px;
 }
-.register a {
+.modal-book a {
   color: #00ced1;
   text-decoration: none;
   font-style: italic;
 }
-.register input[type="number"],
+.modal-book input[type="number"],
 input[type="datetime-local"] {
   width: 50%;
   height: 3vh;

@@ -8,6 +8,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
   $password= $_POST['password'];
   $password = password_hash($password,PASSWORD_DEFAULT);
 
+  
+
   $stmt =$db->prepare("INSERT INTO user(username, email, password) VALUES(?,?,?)");
   $stmt->execute(array($username,$email,$password));
 
