@@ -7,15 +7,15 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
   $ticket_number= $_POST['ticket_number'];
   $class= $_POST['class'];
   $number_of_ticket= $_POST['number_of_ticket'];
-  $time_booked= $_POST['time_booked'];
+  $booked_by= $_SESSION['user']['id'];
+  $date_booked= $_POST['date_booked'];
 
 
-  $stmt =$db->prepare("INSERT INTO ticket(game,ticket_number, class,number_of_ticket,time_booked) VALUES(?,?,?,?,?)");
-  $stmt->execute(array($game,$ticket_number,$class,$number_of_ticket,$time_booked));
 
- echo "successsfully booked";
- exit();
- header("location: account.php");
+  $stmt =$db->prepare("INSERT INTO ticket(game,ticket_number, class,number_of_ticket,booked_by,date_booked) VALUES(?,?,?,?,?,?)");
+  $stmt->execute(array($game,$ticket_number,$class,$number_of_ticket,$booked_by,$date_booked));
+
+ header("location: sports.php");
  
 }
 ?>

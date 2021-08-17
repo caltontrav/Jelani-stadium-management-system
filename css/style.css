@@ -1,3 +1,8 @@
+.logo img {
+  border-radius: 40%;
+  height: 100px;
+  float: left;
+}
 .header h1 {
   text-align: center;
   word-spacing: normal;
@@ -90,6 +95,10 @@
 
 .alert-danger {
   color: red;
+}
+
+.alert-success {
+  color: green;
 }
 
 .alert-success {
@@ -314,6 +323,12 @@ span {
   font-weight: bold;
   font-size: 18px;
 }
+.highlight-1 h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  color: gold;
+}
 
 hr.solid {
   border-top: 3px solid #ff8c00;
@@ -362,6 +377,15 @@ hr.solid {
   background-position: center;
   backface-visibility: visible;
   height: 70vh;
+}
+.highlight-1 {
+  background-image: url(../images/concert1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  backface-visibility: visible;
+  height: 80vh;
+  margin-top: 50px;
 }
 
 /* Clear floats after the columns */
@@ -680,8 +704,56 @@ hr.hr-3 {
   height: 50vh;
   padding-top: 20px;
   color: rgba(255, 255, 255, 0.801);
+  margin-top: 50px;
 }
 .newsletter a {
   text-decoration: none;
   color: #111;
+}
+/*------------------contact us--------------*/
+.contact-page {
+  background-image: url(../images/cont4.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.contact-us {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 300px;
+  background-color: #fff;
+  height: 90vh;
+}
+.contact1 {
+  background-image: url(../images/contact2.jpg);
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+}
+.wrap-contact {
+  margin-top: 50px;
+  text-align: center;
+}
+.contact100-form-title-1,
+.contact100-form-title-2 {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Georgia;
+}
+.contact100-form {
+  font-size: 70px;
+}
+.contact100-form p {
+  font-size: 20px;
+  color: #999;
+  font-family: Georgia;
+}
+.contact100-form input[type="text"],
+input[type="email"] {
+  height: 4vh;
+  width: 29%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #999;
 }

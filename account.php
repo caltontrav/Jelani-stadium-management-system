@@ -20,18 +20,23 @@
       <div class="container">
         <div class="header">
           <h1>
+          <div class="container">
+          <div class="logo">
+            <img src="./images/jlogo2.png" alt="jlogo">
+          </div>
+        </div>
             <strong>J</strong>ELAN<strong>I</strong>
             <br />ST<strong>ADI</strong>UM
           </h1>
 
           <img src="" alt="" />
           <div class="head">
-            <a href="home.html"><i class="fa fa-home"></i>Home</a>
+            <a href="home.php"><i class="fa fa-home"></i>Home</a>
             <a href=""><i class="fa fa-child"></i>Events</a>
-            <a href="sports.html"><i class="fa fa-futbol-o"></i>Sports</a>
-            <a href="book.html"><i class=""></i>Book</a>
-            <a href="account.html"><i class="fa fa-user-circle"></i>Account</a>
-            <a href="">Signout<i class="fa fa-sign-out"></i></a>
+            <a href="sports.php"><i class="fa fa-futbol-o"></i>Sports</a>
+            <a href="book.php"><i class="fa fa-calendar-times-o"></i>Book</a>
+            <a href="account.php"><i class="fa fa-user-circle"></i>Account</a>
+            <a href="./signout.php">Signout<i class="fa fa-sign-out"></i></a>
           </div>
         </div>
       </div>

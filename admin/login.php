@@ -25,7 +25,7 @@
                     unset($email);
                     unset($password);
 
-                    header("location: ../home.php"); 
+                    header("location: ../dashboard.php"); 
                     exit();               
                 }
                 else 
@@ -41,5 +41,5 @@
         }
     }
 
-    header('location: ../index.php');
+    header('location: ../sign_in.php');
 ?>
