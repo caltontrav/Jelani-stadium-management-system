@@ -62,6 +62,44 @@ include_once "./layouts/header.php";
 
 </div>
 
+<form id="regForm">
+            <h1>Book Event:</h1>
+            <div class="tab"> Personal Details:
+                <p><input type="text" placeholder="First Name..."></p>
+                <p><input type="text" placeholder="Middle Name..."></p>
+                <p><input type="text" placeholder="Last Name..."></p>
+                <p><input type="number" placeholder="ID No..."></p>
+            </div>
+            <div class="tab"> Contact:
+                <p>
+                    <input type="tel" placeholder="Phone No...">
+                    <span>Format 254-xxx-xxx-xxx</span>
+                </p>
+                <p>
+                    <input type="text" placeholder="E-mail Address...">
+                    <span>Please enter a valid email (user@domain.com)</span>
+                </p>
+                <p><input placeholder="Address..."></p>
+            </div>
+            <div class="tab"> Reservation:
+                <p><input type="date" placeholder="Date..."></p>
+                <p><input type="time" placeholder="Time..."></p>
+            </div>
+            <div class="tab"> Perfoming Artist:
+                <p>
+                    <select name="" id="">
+                        <option value="">OTILE</option>
+                        <option value="">NADIA</option>
+                        <option value="">KHALIGRAPH</option>
+                        <option value="">WILLY PAUL</option>
+                        <option value="">ALIKIBA</option>
+                        <option value="">SAUTI SOL</option>
+                    </select>
+                </p>
+            </div>
+            <button type="submit" class="submit-btnevents">Submit</button>
+        </form>
+
 
 <?php
 include_once "./layouts/footer.php";
