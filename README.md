@@ -91,7 +91,7 @@ Apache Web Server
 #### 2. Authentication module
 
 - login page
-   Provides user with text fields where they can enter the username and passwords.
+  Provides user with text fields where they can enter the username and passwords.
 
 - Provides a button where user can login to the system.
 
@@ -154,11 +154,11 @@ contains tables of the system database.
 
 #### Event table
 
-| column           | Type        |
-| ------           | -----       |
-| id               | int(pk)     |
-| Name             | tinytext    |
-| Addres           | VARCHAR     |
-| Email            | tinytext    |
-| Reservation date | DATE        |
-| No of people     | int         |
+| column       | Type     |
+| ------------ | -------- |
+| id           | int(pk)  |
+| Name         | tinytext |
+| Addres       | VARCHAR  |
+| Email        | tinytext |
+| Date_booked  | DATE     |
+| No of people | int      |

@@ -18,8 +18,8 @@
                     <a href="#clients" class="droplink"><i class="fa fa-fw fa-user-circle-o"></i> Admin
                         <i class="fa fa-caret-down"></i>
                         <div class="dropdown-content">
-                            <a href="#">profile</a>
-                            <a href="#">sign out <i class="fa fa-sign-out" aria-hidden="true"></i>
+                            <a href="profile.php">profile</a>
+                            <a href="logout.php">sign out <i class="fa fa-sign-out" aria-hidden="true"></i>
                             </a>
                         </div>
                     </a>
@@ -35,11 +35,10 @@
                 <a href="../home.php" target="_blank">Visit site</a>
                 <a href="dashboard.php"><i class="fa fa-fw fa-home"></i> Home</a>
                 <a href="customers.php"><i class="fa fa-fw fa-users"></i> customers</a>
-                <a href=""><i class="fa fa-fw fa-plus-circle"></i> Add Match</a>
-                <a href=""><i class="fa fa-fw fa-calendar-plus-o"></i> Add Event</a>
+                <a href="matches.php"><i class="fa fa-fw fa-plus-circle"></i> Add Match</a>
+                <a href="add-event.php"><i class="fa fa-fw fa-calendar-plus-o"></i> Add Event</a>
                 <a href="tickets.php"><i class="fa fa-fw fa-futbol-o"></i> Sports Tickets</a>
-                <a href=""><i class="fa fa-fw fa-calendar"></i> Events</a>
-                <a href=""><i class="fa fa-fw fa-phone-square"></i> Contact</a>
+                <a href="event.php"><i class="fa fa-fw fa-calendar"></i> Events</a>
             </div>
         </div>
     </div>

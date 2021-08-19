@@ -23,7 +23,7 @@ include_once "./layouts/header.php";
     <div class="profile">
         <h3>Profile</h3>
         <p>You can update your profile here.</p>
-        <button type="button" class="btn2">update password</button>
+        <button type="button" class="btn2">update profile</button>
     </div>
 </div>
 </body>

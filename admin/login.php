@@ -2,12 +2,12 @@
     require_once '../connect.php';
     if($_SERVER['REQUEST_METHOD'] === 'POST') {
         try{
-            $email = $_POST['email'];
+            $username = $_POST['username'];
             $password = $_POST['password'];
             
             // execute query
-            $STH = $db->prepare("SELECT * FROM user WHERE email=?");
-            $data = array($email);
+            $STH = $db->prepare("SELECT * FROM user WHERE username=?");
+            $data = array($username);
             $STH->execute($data);
 
             //check if email exists
@@ -22,10 +22,10 @@
                     $_SESSION['success'] = "Welcome $row[username]";
                     $_SESSION['user'] = $row;
 
-                    unset($email);
+                    unset($user);
                     unset($password);
 
-                    header("location: ../dashboard.php"); 
+                    header("location: ../sign_in.php"); 
                     exit();               
                 }
                 else 
@@ -41,5 +41,5 @@
         }
     }
 
-    header('location: ../sign_in.php');
+    header('location: ./dashboard.php');
 ?>

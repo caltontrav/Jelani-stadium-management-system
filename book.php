@@ -62,6 +62,44 @@ include_once "./layouts/header.php";
 
 </div>
 
+<form id="regForm" action="event.php" method="POST">
+    <h1>Book Event:</h1>
+    <div class="tab"> Personal Details:
+        <p><input type="text" name="first_name" placeholder="First_Name..."></p>
+        <p><input type="text" name="middle_name" placeholder="Middle_Name..."></p>
+        <p><input type="text" name="last_name" placeholder="Last_Name..."></p>
+        <p><input type="number" name="id_no" placeholder="ID_No..."></p>
+    </div>
+    <div class="tab"> Contact:
+        <p>
+            <input type="tel" name="phone_no" placeholder="Phone_No...">
+            <span>Format 254-xxx-xxx-xxx</span>
+        </p>
+        <p>
+            <input type="text" name="email" placeholder="E-mail...">
+            <span>Please enter a valid email (user@domain.com)</span>
+        </p>
+        <p><input name="address" placeholder="Address..."></p>
+    </div>
+    <div class="tab"> Reservation:
+        <p><input type="date" name="date_booked" placeholder="Date..."></p>
+        <p><input type="time" name="time_booked" placeholder="Time..."></p>
+    </div>
+    <div class="tab"> perfoming Artist:
+        <p>
+            <select name="perfoming_artist" id="">
+                <option value="1">OTILE</option>
+                <option value="2">NADIA</option>
+                <option value="3">KHALIGRAPH</option>
+                <option value="4">WILLY PAUL</option>
+                <option value="5">ALIKIBA</option>
+                <option value="6">SAUTI SOL</option>
+            </select>
+        </p>
+    </div>
+    <button type="submit" class="submit-btnevents">Submit</button>
+</form>
+
 
 <?php
 include_once "./layouts/footer.php";

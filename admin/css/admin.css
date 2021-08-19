@@ -203,3 +203,25 @@ td {
   color: #111;
   font-size: 20px;
 }
+.event-table {
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+.event-table1 {
+  margin-left: 200px;
+  margin-bottom: 180px;
+}
+.match-table {
+  margin-left: 190px;
+}
+.match-table table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.match-table th,
+td {
+  padding: 4px;
+  text-align: left;
+}
